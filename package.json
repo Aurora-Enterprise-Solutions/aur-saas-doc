@@ -1,0 +1,19 @@
+{
+  "name": "aur-saas-doc",
+  "version": "0.0.1",
+  "description": "The official documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Jesús Barrientos",
+    "email": "jesus.barrientos@aurora-enterprise.com"
+  },
+  "repository": "/aur-saas-doc",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
