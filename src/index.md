@@ -1,15 +1,13 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Aurora SaaS official documentation
-actionText: Quick Start →
+heroImage: https://storage.googleapis.com/aurora_public_resources/design/images/aurora_saas_logo_ligth.svg
+actionText: Comenzar →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Jesús Barrientos with ❤️
+- title: Infraestructura
+  details: Conozca dónde son almacenados nuestros servidores y lo poderosos que son.
+- title: Arquitectura
+  details: Mire cómo está armado nuestro sistema. Cómo interactuan todos nuestros aplicativos en conjunto.
+- title: Flujo de Trabajo
+  details: Aprenda a desarrollar en Aurora SaaS.
 ---
