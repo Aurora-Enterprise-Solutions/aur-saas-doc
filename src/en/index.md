@@ -2,7 +2,7 @@
 home: true
 heroImage: https://storage.googleapis.com/aurora_public_resources/design/images/aurora_saas_logo_ligth.svg
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /en/guide/
 features:
 - title: Infrastructure
   details: Feature 1 Description
