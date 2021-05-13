@@ -10,6 +10,8 @@ module.exports = {
    */
   description: description,
 
+  base: '/aur-saas-doc/',
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *

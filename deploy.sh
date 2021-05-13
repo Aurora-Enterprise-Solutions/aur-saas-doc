@@ -1,19 +1,26 @@
-# Save changes and change to master branch
-git stash -u
-git checkout master
+#!/usr/bin/env sh
 
-# Generates dist folder
+# abort on errors
+set -e
+
+# build
 yarn build
 
-# Commit dist folder
-git add --all
-git commit -m 'New documentation release'
+# navigate into the build output directory
+cd src/.vuepress/dist
 
-# Switch to the gh-pages branch and get dist files, then move those files to the root
-git checkout gh-pages
-git checkout master src/.vuepress/dist/
-mv src/.vuepress/dist/**/* .
+# if you are deploying to a custom domain
+# echo 'www.example.com' > CNAME
 
-# Clean generated folders for other branches
-rm -r src dist
-find ./ -type d -empty -delete
+git init
+git add -A
+git commit -m 'deploy'
+
+# if you are deploying to https://<USERNAME>.github.io
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+
+# if you are deploying to https://<USERNAME>.github.io/<REPO>
+# git push -f git@github.com:Aurora-Enterprise-Solutions/aur-saas-doc.git master:gh-pages
+git push -f https://github.com/Aurora-Enterprise-Solutions/aur-saas-doc.git master:gh-pages
+
+cd -
