@@ -65,7 +65,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                       '',
-                      'using-vue',
+                      'first-steps',
                     ]
                   }
                 ],
@@ -94,13 +94,13 @@ module.exports = {
             ],
 
             sidebar: {
-                '/guide/': [
+                '/en/guide/': [
                   {
                     title: 'Guide',
                     collapsable: false,
                     children: [
                       '',
-                      'using-vue',
+                      'first-steps',
                     ]
                   }
                 ],
