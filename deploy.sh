@@ -9,6 +9,9 @@ yarn build
 # navigate into the build output directory
 cd src/.vuepress/dist
 
+# copy CNAME file inside dist folder
+echo "doc.aurora-enterprise.com" > CNAME
+
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
