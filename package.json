@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "push": "gsutil rsync -R . gs://aurora-saas-doc"
+    "deploy": "sh deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {

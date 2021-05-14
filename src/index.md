@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://storage.googleapis.com/aurora_public_resources/design/images/aurora_saas_logo_ligth.svg
+heroImage: /images/aurora_saas_logo_ligth.svg
 actionText: Comenzar →
 actionLink: /guide/
 features:
