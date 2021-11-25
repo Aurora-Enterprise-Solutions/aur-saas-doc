@@ -143,10 +143,10 @@ module.exports = {
       title: 'Aurora SaaS',
       description: 'La documentación oficial'
     },
-    /* '/en/': {
+    '/en/': {
       lang: 'en-US',
       title: 'Aurora SaaS',
       description: 'The official documentation'
-    } */
+    }
   }
 }
