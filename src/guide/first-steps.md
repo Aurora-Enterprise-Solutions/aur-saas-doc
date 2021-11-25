@@ -4,7 +4,7 @@
 
 Como primera instancia y antes de comenzar con la clonación de proyectos, es sumamente importante tener claridad de cómo está armado el sistema. Conocer los aplicativos y cómo interactúan entre si es clave para poder desarrollar a conciencia desde el punto de vista en el cual nos encontremos.
 
-TODO falta completar con información y diagrama.
+[comment]: <> (TODO: falta completar con información y diagrama.)
 
 ## Clonación de repositorios
 
